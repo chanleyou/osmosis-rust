@@ -482,7 +482,7 @@ pub struct QueryPoolRequest {
 #[proto_message(type_url = "/osmosis.gamm.v1beta1.QueryPoolResponse")]
 pub struct QueryPoolResponse {
     #[prost(message, optional, tag = "1")]
-    pub pool: ::core::option::Option<crate::shim::Any>,
+    pub pool: ::core::option::Option<Pool>,
 }
 ///=============================== Pools
 #[derive(
